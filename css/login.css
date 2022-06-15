@@ -102,6 +102,7 @@ a {
   border: 1px solid #ccd2d8;
   max-width: 400px;
 }
+
 .login-card--nospacing {
   padding: 0;
 }
@@ -157,13 +158,9 @@ a {
   color: var(--color_white);
   border: 1px solid var(--color_primary);
   border-radius: 4px;
-  
-  
-  
   cursor: pointer;
-  text-align: center;
-  padding: 0%;
 }
+
 .form__button button:hover {
   border: 1px solid var(--color_button_hover);
   background-color: var(--color_button_hover);
@@ -191,18 +188,13 @@ a {
   font-size: var(--font-size-xs);
   font-weight: 600;
   color: #303336;
-  text-align: center;
   border-top: 1px solid #e6e9ec;
   background-color: #f8f9fa;
   padding: 8px 24px;
-  line-height: 1.5;
 }
 
 .login-card__footer a {
   font-size: var(--font-size-xs);
   font-weight: 600;
-  text-align: center;
   cursor: pointer;
-  color: var(--color_primary);
-  text-decoration: none;
 }
