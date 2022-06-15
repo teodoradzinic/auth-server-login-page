@@ -1,0 +1,82 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Please sign in</title>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <div class="flex">
+    <div class="login-box">
+      <div class="header">
+        <img
+          src="css/assets/logos/appradar-logo-full-duotone-light-rgb.svg"
+          class="header__logo"
+          alt="header-logo"
+        />
+        <span class="header__divider"></span>
+        <span class="header__headline">Login</span>
+      </div>
+
+      <div class="login-card login-card--nospacing">
+        <div class="login-card__content">
+          <div class="logincard__headline txt-center">Welcome back!</div>
+          <div class="login_subheadline txt-center">Login to your account.</div>
+
+          <form class="form" method="post" action="/login">
+            <div class="formelement mb-s">
+              <input
+                type="text"
+                id="username"
+                name="username"
+                class="form__input"
+                placeholder="Username"
+                required
+                autofocus
+              />
+            </div>
+            <div class="formelement mb-s">
+              <input
+                type="password"
+                id="password"
+                name="password"
+                class="form__input"
+                placeholder="Password"
+                required
+              />
+            </div>
+
+            <div class="form__button">
+              <button class="button" type="submit">Login</button>
+            </div>
+
+            <div class="form__link mb-s mt-s txt-center">
+              <a class="forgot-pass" href="">Forgot your password?</a>
+            </div>
+          </form>
+          <div class="register__info txt-center">
+            By signing in, you agree to App Radar's
+            <a href="https://appradar.com/privacy-policy"
+              ><strong>Privacy Policy</strong></a
+            >,
+            <a href="https://appradar.com/terms-of-service">
+              <strong>Terms <br />and Conditions</strong></a
+            >
+            and our marketing emails.
+          </div>
+        </div>
+
+        <div class="login-card__footer">
+          No Account? -
+          <a href="https://web.appradar.com/register">Start for free</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
