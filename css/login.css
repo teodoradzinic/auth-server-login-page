@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");*/
+
 :root {
   --color_primary: #2667fb;
   --color_button_hover: #2681fb;
@@ -62,7 +63,6 @@ a {
 
 .login-box {
   width: 100%;
-  padding-top: 20px;
 }
 
 .header {
